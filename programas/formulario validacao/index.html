@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<title>Validando Formulários com Javascript</title>
+        <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="container">
+		<h1 class="text-center">Validando Formulários JS</h1>
+		<form class="form" name="formSignUp" action="">
+			<div class="form-group">
+				<span id="msg_erro" name="msg_erro" class="msg-erro"> </span>
+			</div>
+			<div class="form-group">
+				<label for="data">Nome</label>
+				<input type="text" name="nome" id="nomeUsuario" class="form-control" placeholder="Digite seu nome" />
+			</div>
+			<div class="form-group">
+				<label for="data">E-mail</label>
+				<input type="text" name="email" class="form-control" id="emailUsuario" placeholder="Digite um e-mail valido"/>
+			</div>
+			<div class="form-group">
+				<label for="data">Senha</label>
+				<input type="password" name="senha" class="form-control" id="senhaUsuario" placeholder="Digite uma senha de no minimo 3 caracteres" />
+			</div>
+			<div class="form-group">
+				<label for="data">Confirm Senha</label>
+				<input type="password" name="confirm_senha" class="form-control" id="confirmSenhaUsuario" placeholder="Repita a senha digitada acima" />
+			</div>
+
+			<button class="btn btn-primary" type="button" onclick="validar()">
+				Validar
+			</button>
+    </form>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+	</body>
+</html>
