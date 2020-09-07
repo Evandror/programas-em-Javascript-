@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="container" >
+	<h1 class="text-center">Calcuadora</h1>
+	
+	
+	<form name="calcform" method="post" action="">
+		<fieldset>
+	 
+		   <label for="valor1" class="badge badge-light">Digite o <strong>1º</strong> valor :</label>
+		   <input type="text" name="valor1" id="valor1" class="form-group mx-sm-3 mb-2"/>
+	 
+		   <label for="valor2" class="badge badge-light">Digite o <strong>2º</strong> valor :</label>
+		   <input type="text" name="valor2" id="valor2" class="form-group mx-sm-3 mb-2" />
+	 
+		   <label for="oper" class="badge badge-light">Selecione a operação:</label>
+		   <select name="oper" id="oper" class="badge badge-light">
+			  <option value="somar">Somar</option>
+			  <option value="subtrair">Subtrair</option>
+			  <option value="multiplicar">Multiplifcar</option>
+			  <option value="dividir">Dividir</option>
+		   </select>
+	 <br>
+		   <label for="res" class="badge badge-light">Resultado:</label>
+		   <input type="text" name="res" id="res" />
+	 
+		   <input type="button" value="Calcular" class="btn btn-primary" onClick="calcular(document.calcform.oper.value)"/>
+		</fieldset>
+	 </form>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
+			
+
+		  
+		 
