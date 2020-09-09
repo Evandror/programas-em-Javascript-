@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Jura:500");
+
+.container {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #444444;
+  width: 230px;
+  height: 300px;
+  border-radius: 25px;
+  position: relative;
+ 
+}
+
+h1{
+  font-size: 25px;
+  color: #fff;
+  
+}
+p{
+  color: #fff;
+}
+
+.button{
+  position: absolute;
+  top: 230px;
+  left: 70px;
+}
+
+button,
+input {
+  font-family: "Jura", sans-serif;
+
+}
